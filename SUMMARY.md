@@ -3,5 +3,5 @@
 * [Abstract](README.md)
 * [Mathematical Notations](mathematical-notations.md)
 * [Motivation](motivation.md)
-* [Polynomial curve fitting](polynomial-curve-fitting.md)
+* [Example Data](polynomial-curve-fitting.md)
 
