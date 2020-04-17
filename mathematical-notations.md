@@ -1,8 +1,8 @@
 # Mathematical Notations
 
-**x** – Denotes a column vector
+  $$\mathbf{X}$$ – Denotes a column vector
 
- ![](.gitbook/assets/xt.png) - Denotes a row vector
+ $$\mathbf{X^T}$$ - Denotes a row vector
 
   **M** - Denotes a matrix
 
