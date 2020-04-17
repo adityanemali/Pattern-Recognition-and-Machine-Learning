@@ -2,4 +2,5 @@
 
 * [Abstract](README.md)
 * [Mathematical Notations](mathematical-notations.md)
+* [Motivation](motivation.md)
 
