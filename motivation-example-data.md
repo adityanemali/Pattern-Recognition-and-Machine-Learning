@@ -12,10 +12,10 @@ Plot of a training data set of N = 10 points, shown as blue circles, each compri
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Function to create training set of N = 10 points 
+# Function to create training set of N = 10 points
 
 def dummy_data(func, sample_size, noise):
-    x = np.linespace(0, 1, sample_size)
+    x = np.linspace(0, 1, sample_size)
     t = func(x) + noise
     return x, t
 
@@ -28,14 +28,14 @@ def sin_func(x):
 train, target = dummy_data(sin_func, 10, 0.1)
 
 # creating test set
-test = np.linespace(0,1,100)
+test = np.linspace(0,1,100)
 
 # target of the test
-target_test = func(test)
+target_test = sin_func(test)
 
-# plotting 
+# plotting
 plt.scatter(train, target, facecolor="none", edgecolor="b", s=50, label="training data")
-plt.plot(x_test, y_test, c="g", label="$\sin(2\pi x)$")
+plt.plot(test, target_test, c="g", label="$\sin(2\pi x)$")
 plt.legend()
 plt.show()
 ```
