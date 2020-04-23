@@ -8,7 +8,7 @@
 
  ![](.gitbook/assets/0.png)- Denotes a row vector with M elements
 
-![](.gitbook/assets/1.png) -  Denotes a column vector with M elements
+![](.gitbook/assets/1%20%281%29.png) -  Denotes a column vector with M elements
 
 \[a, b\] - Denotes the closed interval from a to b, that is the interval including the values a, b themselves.
 
